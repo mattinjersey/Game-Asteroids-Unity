@@ -1,76 +1,148 @@
 fileFormatVersion: 2
 guid: dc546a6cc4e911c4e97efcab907cd3b6
-timeCreated: 1434149411
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: bg_light
-    21300002: explosion_01
-    21300004: explosion_02
-    21300006: explosion_03
-    21300008: explosion_04
-    21300010: explosion_05
-    21300012: laser
-    21300014: meteorBrown_big1
-    21300016: meteorBrown_big2
-    21300018: meteorBrown_big3
-    21300020: meteorBrown_big4
-    21300022: meteorBrown_med1
-    21300024: meteorBrown_med3
-    21300026: meteorBrown_small1
-    21300028: meteorBrown_small2
-    21300030: meteorBrown_tiny1
-    21300032: meteorBrown_tiny2
-    21300034: player_life
-    21300036: player_ship
-    21300038: shield
-    21300040: thruster
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: bg_light
+  - first:
+      213: 21300002
+    second: explosion_01
+  - first:
+      213: 21300004
+    second: explosion_02
+  - first:
+      213: 21300006
+    second: explosion_03
+  - first:
+      213: 21300008
+    second: explosion_04
+  - first:
+      213: 21300010
+    second: explosion_05
+  - first:
+      213: 21300012
+    second: laser
+  - first:
+      213: 21300014
+    second: meteorBrown_big1
+  - first:
+      213: 21300016
+    second: meteorBrown_big2
+  - first:
+      213: 21300018
+    second: meteorBrown_big3
+  - first:
+      213: 21300020
+    second: meteorBrown_big4
+  - first:
+      213: 21300022
+    second: meteorBrown_med1
+  - first:
+      213: 21300024
+    second: meteorBrown_med3
+  - first:
+      213: 21300026
+    second: meteorBrown_small1
+  - first:
+      213: 21300028
+    second: meteorBrown_small2
+  - first:
+      213: 21300030
+    second: meteorBrown_tiny1
+  - first:
+      213: 21300032
+    second: meteorBrown_tiny2
+  - first:
+      213: 21300034
+    second: player_life
+  - first:
+      213: 21300036
+    second: player_ship
+  - first:
+      213: 21300038
+    second: shield
+  - first:
+      213: 21300040
+    second: thruster
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
   maxTextureSize: 4096
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: 16
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: bg_light
+    - serializedVersion: 2
+      name: bg_light
       rect:
         serializedVersion: 2
         x: 2
@@ -78,9 +150,20 @@ TextureImporter:
         width: 960
         height: 600
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: explosion_01
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion_01
       rect:
         serializedVersion: 2
         x: 964
@@ -88,9 +171,20 @@ TextureImporter:
         width: 54
         height: 50
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: explosion_02
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion_02
       rect:
         serializedVersion: 2
         x: 84
@@ -98,9 +192,20 @@ TextureImporter:
         width: 70
         height: 84
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: explosion_03
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion_03
       rect:
         serializedVersion: 2
         x: 2
@@ -108,9 +213,20 @@ TextureImporter:
         width: 80
         height: 88
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: explosion_04
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion_04
       rect:
         serializedVersion: 2
         x: 105
@@ -118,9 +234,20 @@ TextureImporter:
         width: 70
         height: 57
       alignment: 9
-      pivot: {x: .5, y: .491228074}
+      pivot: {x: 0.5, y: 0.49122807}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: explosion_05
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explosion_05
       rect:
         serializedVersion: 2
         x: 105
@@ -128,9 +255,20 @@ TextureImporter:
         width: 62
         height: 49
       alignment: 9
-      pivot: {x: .5, y: .489795923}
+      pivot: {x: 0.5, y: 0.48979592}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: laser
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser
       rect:
         serializedVersion: 2
         x: 1011
@@ -138,9 +276,20 @@ TextureImporter:
         width: 7
         height: 44
       alignment: 9
-      pivot: {x: .428571433, y: .5}
+      pivot: {x: 0.42857143, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: meteorBrown_big1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorBrown_big1
       rect:
         serializedVersion: 2
         x: 2
@@ -148,9 +297,20 @@ TextureImporter:
         width: 101
         height: 84
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: meteorBrown_big2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorBrown_big2
       rect:
         serializedVersion: 2
         x: 2
@@ -158,9 +318,20 @@ TextureImporter:
         width: 120
         height: 98
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: meteorBrown_big3
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorBrown_big3
       rect:
         serializedVersion: 2
         x: 102
@@ -168,9 +339,20 @@ TextureImporter:
         width: 89
         height: 82
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: meteorBrown_big4
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorBrown_big4
       rect:
         serializedVersion: 2
         x: 2
@@ -178,9 +360,20 @@ TextureImporter:
         width: 98
         height: 96
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: meteorBrown_med1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorBrown_med1
       rect:
         serializedVersion: 2
         x: 964
@@ -188,9 +381,20 @@ TextureImporter:
         width: 43
         height: 43
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: meteorBrown_med3
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorBrown_med3
       rect:
         serializedVersion: 2
         x: 964
@@ -198,9 +402,20 @@ TextureImporter:
         width: 45
         height: 40
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: meteorBrown_small1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorBrown_small1
       rect:
         serializedVersion: 2
         x: 964
@@ -208,9 +423,20 @@ TextureImporter:
         width: 28
         height: 28
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: meteorBrown_small2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorBrown_small2
       rect:
         serializedVersion: 2
         x: 964
@@ -218,9 +444,20 @@ TextureImporter:
         width: 29
         height: 26
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: meteorBrown_tiny1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorBrown_tiny1
       rect:
         serializedVersion: 2
         x: 999
@@ -228,9 +465,20 @@ TextureImporter:
         width: 18
         height: 18
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: meteorBrown_tiny2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: meteorBrown_tiny2
       rect:
         serializedVersion: 2
         x: 999
@@ -238,9 +486,20 @@ TextureImporter:
         width: 16
         height: 15
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_life
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_life
       rect:
         serializedVersion: 2
         x: 964
@@ -248,9 +507,20 @@ TextureImporter:
         width: 33
         height: 26
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_ship
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_ship
       rect:
         serializedVersion: 2
         x: 964
@@ -258,9 +528,20 @@ TextureImporter:
         width: 55
         height: 42
       alignment: 9
-      pivot: {x: .4909091, y: .5}
+      pivot: {x: 0.4909091, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: shield
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shield
       rect:
         serializedVersion: 2
         x: 124
@@ -268,9 +549,20 @@ TextureImporter:
         width: 79
         height: 65
       alignment: 9
-      pivot: {x: .493670881, y: .492307693}
+      pivot: {x: 0.49367088, y: 0.4923077}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: thruster
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thruster
       rect:
         serializedVersion: 2
         x: 1011
@@ -278,9 +570,31 @@ TextureImporter:
         width: 11
         height: 27
       alignment: 9
-      pivot: {x: .454545468, y: .481481493}
+      pivot: {x: 0.45454547, y: 0.4814815}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

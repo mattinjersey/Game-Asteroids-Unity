@@ -13,12 +13,24 @@ namespace Asteroids {
 	public class Player : MonoBehaviour {
 
 		public event Action EventDied;
-
 		private PlayerController controller;
 		private CollisionWithAsteroid collisionWithAsteroid;
 		private PlayerDeath playerDeath;
-		private PlayerShield shield;
-
+		private PlayerShield shield;	
+		[SerializeField]
+		private GameObject gameHolder;
+		[SerializeField]
+		private int startingLives = 1;
+		public int Lives
+		{
+			get;
+			private set;
+		}
+		public int Points
+		{
+			get;
+			private set;
+		}
 		//===================================================
 		// UNITY METHODS
 		//===================================================
@@ -26,30 +38,27 @@ namespace Asteroids {
 		/// <summary>
 		/// Awake.
 		/// </summary>
-		void Awake() {
-			controller = GetComponent<PlayerController>();
-
-			collisionWithAsteroid = GetComponent<CollisionWithAsteroid>();
-			collisionWithAsteroid.EventCollision += OnCollisionWithAsteroid;
-
-			playerDeath = GetComponent<PlayerDeath>();
-			playerDeath.EventDieComplete += OnDeathComplete;
-
-			shield = GetComponent<PlayerShield>();
+		void Start() {
+			ResetGame();		
 		}
-
+		public void ResetGame()
+		{
+			Points = 0;
+			Lives = startingLives;
+		//	xReset();
+		//	UpdateLives(Lives);
+		//	UpdatePoints(Points);
+			shield = GetComponent<PlayerShield>();
+			gameObject.transform.position = Vector3.zero;
+	//		showGameScreen();
+			//gameObject.SetActive( true );
+			shield.Show();
+		}
 		//===================================================
 		// PUBLIC METHODS
 		//===================================================
 
-		/// <summary>
-		/// Shows the player
-		/// </summary>
-		public void Spawn() {
-			gameObject.transform.position = Vector3.zero;
-			gameObject.SetActive( true );
-			shield.Show();
-		}
+		
 
 		//===================================================
 		// PRIVATE METHODS
@@ -71,7 +80,7 @@ namespace Asteroids {
 			if( !shield.IsInvincible ) {
 				controller.Reset();
 				playerDeath.Die();
-				gameObject.SetActive( false );
+				//gameObject.SetActive( false );
 			}
 		}
 

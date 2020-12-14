@@ -64,7 +64,7 @@ namespace Asteroids {
 		/// Spawns the player.
 		/// </summary>
 		public void SpawnPlayer() {
-			player.Spawn();
+			//player.Spawn();
 		}
 
 		//===================================================
